@@ -5,3 +5,45 @@
 /* stylelint-disable*/
 a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 /* stylelint-enable */
+
+/* ======= BASE STYLES ======= */
+
+html {
+	background-color: #EEE;
+	color: #6d6b6b;
+	font-size: 1.125em; /* 18px */ /* MINOR 3rd */
+	line-height: 1.222em; /* 22px = 1 gridline */
+	/* Top Right Bottom Left - TRBL - first num are TB second num is RL */
+	padding: 1.222em 0.916em; /* 16.5 px */
+}
+
+h1 {
+	font-size: 1.728em; /* 31.104px */
+}
+
+/* ======= MODULAR STYLES ======= */
+
+.navigation li {
+	display: inline;
+}
+
+.navigation ul {
+	height: auto;
+}
+
+.navigation a {
+	text-decoration: none;
+}
+
+.education ul {
+	list-style-type: disc;
+	padding-left: 0.916em;
+}
+
+/* ======= STATE ======= */
+
+@media screen and (min0width: 545px){
+	.education  {
+		margin: 0 15% 0 25%;
+	}
+}
