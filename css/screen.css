@@ -10,15 +10,35 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 html {
 	background-color: #EEE;
-	color: #6d6b6b;
-	font-size: 1.125em; /* 18px */ /* MINOR 3rd */
+	color: #242424;
+	font-family: Georgia, Helvetica, sans-serif;
+	font-size: 1.125em; /* 18px */ /* MINOR 3rd - 6:5 - 1.2  */
 	line-height: 1.222em; /* 22px = 1 gridline */
 	/* Top Right Bottom Left - TRBL - first num are TB second num is RL */
-	padding: 1.222em 0.916em; /* 16.5 px */
+	padding: 1.222em 1.019em; /* 22px 18.333px */
 }
 
 h1 {
 	font-size: 1.728em; /* 31.104px */
+	line-height: 1.415em; /* 44px = 2 gridlines */
+}
+
+h2 {
+	font-size: 1.35em; /* 21.6px */
+	line-height: 1.415em; /* 44px = 2 gridlines */
+}
+
+p,
+ul {
+  padding-bottom: 1.222em; /* 22px */
+}
+
+li {
+  padding-bottom: 0.611em; /* 11px = half gridline*/
+}
+
+li:last-child {
+  padding-bottom: 0;
 }
 
 /* ======= MODULAR STYLES ======= */
@@ -35,15 +55,18 @@ h1 {
 	text-decoration: none;
 }
 
-.education ul {
+.schools ul {
 	list-style-type: disc;
 	padding-left: 0.916em;
 }
 
 /* ======= STATE ======= */
 
-@media screen and (min0width: 545px){
+@media screen and (min-width: 545px){
 	.education  {
+		margin: 0 15% 0 25%;
+	}
+	.schools  {
 		margin: 0 15% 0 25%;
 	}
 }
