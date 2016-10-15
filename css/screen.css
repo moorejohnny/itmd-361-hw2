@@ -28,6 +28,12 @@ h2 {
 	padding-bottom: 0.611em; /* 11px = half gridline*/
 }
 
+h3 {
+	font-size: 0.781em; /* 12.5px */
+	line-height: 1.415em; /* 44px = 2 gridlines */
+	padding-bottom: 0.611em; /* 11px = half gridline*/
+}
+
 p,
 ul {
   padding-bottom: 1.222em; /* 22px */
@@ -40,6 +46,16 @@ li {
 
 li:last-child {
   padding-bottom: 0;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+video {
+	display: block;
+	max-width: 100%;
 }
 
 /* ======= MODULAR STYLES ======= */
