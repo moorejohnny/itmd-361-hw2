@@ -14,18 +14,18 @@ html {
 	font-family: Georgia, Helvetica, sans-serif;
 	font-size: 1.125em; /* 18px */ /* MINOR 3rd - 6:5 - 1.2  */
 	line-height: 1.222em; /* 22px = 1 gridline */
-	/* Top Right Bottom Left - TRBL - first num are TB second num is RL */
-	padding: 1.222em 1.019em; /* 22px 18.333px */
 }
 
 h1 {
 	font-size: 1.728em; /* 31.104px */
 	line-height: 1.415em; /* 44px = 2 gridlines */
+	padding-bottom: 0.611em; /* 11px = half gridline*/
 }
 
 h2 {
 	font-size: 1.35em; /* 21.6px */
 	line-height: 1.415em; /* 44px = 2 gridlines */
+	padding-bottom: 0.611em; /* 11px = half gridline*/
 }
 
 p,
@@ -34,6 +34,7 @@ ul {
 }
 
 li {
+
   padding-bottom: 0.611em; /* 11px = half gridline*/
 }
 
@@ -59,6 +60,30 @@ li:last-child {
 	list-style-type: disc;
 	padding-left: 0.916em;
 }
+
+/* ===== LAYOUT STYLES ===== */
+
+#go-to-hell {
+	/* Top Right Bottom Left - TRBL - first num are TB second num is RL */
+	padding: 1.222em 1.019em; /* 22px 18.333px */
+}
+
+#resume {
+	/* Top Right Bottom Left - TRBL - first num are TB second num is RL */
+	padding: 1.222em 1.019em; /* 22px 18.333px */
+}
+
+#interests {
+	/* Top Right Bottom Left - TRBL - first num are TB second num is RL */
+	padding: 1.222em 1.019em; /* 22px 18.333px */
+}
+
+#contact {
+	/* Top Right Bottom Left - TRBL - first num are TB second num is RL */
+	padding: 1.222em 1.019em; /* 22px 18.333px */
+}
+
+
 
 /* ======= STATE ======= */
 
