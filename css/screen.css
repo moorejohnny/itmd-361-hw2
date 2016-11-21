@@ -13,7 +13,7 @@ html {
 	color: #242424;
 	font-family: Georgia, Helvetica, sans-serif;
 	font-size: 1.125em; /* 18px */ /* MINOR 3rd - 5:6 - 1.2  */
-	line-height: 1.222em; /* 22px = 1 gridline // 22px / 18 px */
+	line-height: 1.222em; /* 22px / 18px (1 gridline) */
 }
 
 h1 {
@@ -41,7 +41,7 @@ ul {
 
 li {
 
-  padding-bottom: 0.611em; /* 11px = half gridline*/
+  padding-bottom: 0.611em; /* 11px = 0.5 gridline */
 }
 
 li:last-child {
@@ -112,21 +112,52 @@ video {
 
 /* ======= STATE ======= */
 
-@media screen and (min-width: 545px){
-	.education  {
-		margin: 0 15% 0 25%;
+@media screen and (min-width: 545px){ /* increasing the font sizes by 2px */
+	html {
+		font-size: 1.250em; /* 20px */
+		line-height: 1.333em; /* 24px / 18px (1 gridline) */
 	}
-	.schools  {
-		margin: 0 15% 0 25%;
+
+	h1 {
+		font-size: 1.839em; /* 33.104px / 18px */
+		line-height: 1.45em; /* 48px / 33.104px (2 gridlines) */
+		padding-bottom: 0.362em; /* 12px / 33.104px (0.5 gridline) */
+	}
+
+	h2 {
+		font-size: 1.551em; /* 27.92px / 18px */
+		line-height: 1.289em; /* 36px / 27.92px (1.5 gridlines) */
+		padding-bottom: 0.43em; /* 12px / 27.92px (0.5 gridline) */
+	}
+
+	h3 {
+		font-size: 0.806em; /* 14.5px / 18px */
+		line-height: 0.828em; /* 12px / 14.5px (0.5 gridlines) */
+		padding-bottom: 0.828em; /* 12px / 14.5px (0.5 gridlines) */
 	}
 }
-/*
-@media screen and (min-width: 545px){
-	.education  {
-		margin: 0 15% 0 25%;
+
+@media screen and (min-width: 1250px){ /* increasing the font sizes by 4px */
+	html {
+		font-size: 1.375em; /* 22px */
+		line-height: 1.444em; /* 26px / 18px (1 gridline) */
 	}
-	.schools  {
-		margin: 0 15% 0 25%;
+
+	h1 {
+		font-size: 1.95em; /* 35.104px / 18px */
+		line-height: 1.481em; /* 52px / 35.104px (2 gridlines) */
+		padding-bottom: 0.37em; /* 13px / 35.104px (0.5 gridline) */
+	}
+
+	h2 {
+		font-size: 1.551em; /* 27.92px / 18px */
+		line-height: 1.397em; /* 39px / 27.92px (1.5 gridlines) */
+		padding-bottom: 0.466em; /* 13px / 27.92px (0.5 gridline) */
+	}
+
+	h3 {
+		font-size: 0.917em; /* 16.5px / 18px */
+		line-height: 0.787em; /* 13px / 16.5px (0.5 gridlines) */
+		padding-bottom: 0.787em; /* 13px / 16.5px (0.5 gridlines) */
 	}
 }
-*/
