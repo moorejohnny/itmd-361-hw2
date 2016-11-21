@@ -18,20 +18,20 @@ html {
 
 h1 {
 	font-size: 1.728em; /* 31.104px / 18px */
-	line-height: 1.415em; /* 44px = 2 gridlines */
-	padding-bottom: 0.611em; /* 11px = half gridline*/
+	line-height: 1.415em; /* 44px / 31.104px (2 gridlines) */
+	padding-bottom: 0.354em; /* 11px / 31.104px (0.5 gridline) */
 }
 
 h2 {
-	font-size: 1.44em; /* 25.92px / 18 px */
-	line-height: 1.273em; /* 33px = 1.5 gridlines */
-	padding-bottom: 0.611em; /* 11px = half gridline*/
+	font-size: 1.44em; /* 25.92px / 18px */
+	line-height: 1.273em; /* 33px / 25.92px (1.5 gridlines) */
+	padding-bottom: 0.424em; /* 11px / 25.92px (0.5 gridline) */
 }
 
 h3 {
-	font-size: 0.781em; /* 12.5px */
-	line-height: 0.454em; /* 22px / 12.5px */
-	padding-bottom: 0.611em; /* 11px = half gridline*/
+	font-size: 0.694em; /* 12.5px / 18px */
+	line-height: 0.88em; /* 11px / 12.5px (0.5 gridlines) */
+	padding-bottom: 0.88em; /* 11px / 12.5px (0.5 gridline) */
 }
 
 p,
