@@ -12,25 +12,25 @@ html {
 	background-color: #EEE;
 	color: #242424;
 	font-family: Georgia, Helvetica, sans-serif;
-	font-size: 1.125em; /* 18px */ /* MINOR 3rd - 6:5 - 1.2  */
-	line-height: 1.222em; /* 22px = 1 gridline */
+	font-size: 1.125em; /* 18px */ /* MINOR 3rd - 5:6 - 1.2  */
+	line-height: 1.222em; /* 22px = 1 gridline // 22px / 18 px */
 }
 
 h1 {
-	font-size: 1.728em; /* 31.104px */
+	font-size: 1.728em; /* 31.104px / 18px */
 	line-height: 1.415em; /* 44px = 2 gridlines */
 	padding-bottom: 0.611em; /* 11px = half gridline*/
 }
 
 h2 {
-	font-size: 1.35em; /* 21.6px */
-	line-height: 1.415em; /* 44px = 2 gridlines */
+	font-size: 1.44em; /* 25.92px / 18 px */
+	line-height: 1.273em; /* 33px = 1.5 gridlines */
 	padding-bottom: 0.611em; /* 11px = half gridline*/
 }
 
 h3 {
 	font-size: 0.781em; /* 12.5px */
-	line-height: 1.415em; /* 44px = 2 gridlines */
+	line-height: 0.454em; /* 22px / 12.5px */
 	padding-bottom: 0.611em; /* 11px = half gridline*/
 }
 
@@ -48,11 +48,7 @@ li:last-child {
   padding-bottom: 0;
 }
 
-img {
-	display: block;
-	max-width: 100%;
-}
-
+img,
 video {
 	display: block;
 	max-width: 100%;
@@ -60,8 +56,18 @@ video {
 
 /* ======= MODULAR STYLES ======= */
 
+.navigation {
+	padding: 0;
+	line-height: 1;
+}
+
 .navigation li {
-	display: inline;
+	display: inline-block;
+	padding: 0;
+}
+
+.navigation li a {
+	display: block;
 }
 
 .navigation ul {
@@ -99,6 +105,11 @@ video {
 	padding: 1.222em 1.019em; /* 22px 18.333px */
 }
 
+#navigation {
+  position: absolute;
+	top: 0;
+}
+
 /* ======= STATE ======= */
 
 @media screen and (min-width: 545px){
@@ -109,3 +120,13 @@ video {
 		margin: 0 15% 0 25%;
 	}
 }
+/*
+@media screen and (min-width: 545px){
+	.education  {
+		margin: 0 15% 0 25%;
+	}
+	.schools  {
+		margin: 0 15% 0 25%;
+	}
+}
+*/
