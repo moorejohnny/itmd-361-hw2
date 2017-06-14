@@ -1,3 +1,8 @@
+<?php
+  $page_title = "Course Selection";
+  $current = "course";
+  include_once("../header.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
